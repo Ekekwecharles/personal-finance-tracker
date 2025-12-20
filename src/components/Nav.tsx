@@ -153,7 +153,7 @@ const About = styled(StyledLink)`
     width: 3rem;
 
     @media (max-width: 37.5em) {
-      width: 2rem;
+      width: 1.6rem;
     }
   }
 `;

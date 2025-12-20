@@ -40,8 +40,12 @@ const StyledLogo = styled.div`
   img {
     height: 4rem;
 
-    @media (max-width: 600px) {
+    @media (max-width: 700px) {
       height: 3rem;
+    }
+
+    @media (max-width: 600px) {
+      height: 2.5rem;
     }
   }
 `;

@@ -65,6 +65,8 @@ const NavPages = styled.div`
 
   @media (max-width: 37.5em) {
     gap: 1rem;
+    font-size: 0.75rem;
+    padding: 0 0.5rem;
   }
 
   span {
@@ -82,6 +84,7 @@ const StyledLink = styled(Link)`
   padding: 0 0 1rem;
   color: inherit;
   text-decoration: none;
+  white-space: nowrap;
 
   @media (max-width: 56.25em) {
     padding: 0 0 0.5rem;

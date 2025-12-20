@@ -298,7 +298,8 @@ export default function TransferPage() {
       {step === 1 && showGetToken && (
         <ModalBG>
           <Modal>
-            An Access Code will be sent to your email registered with this bank.
+            An Access Code will be sent to your email registered with this
+            service.
             <BtnContainer>
               <button onClick={generateToken}>
                 {loading ? <div className="loader"></div> : "Continue"}
