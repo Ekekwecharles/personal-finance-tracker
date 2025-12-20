@@ -3,7 +3,7 @@
 import styled from "styled-components";
 import BackBtn from "@/components/BackBtn";
 import { useEffect, useState } from "react";
-// import { sendTokenByEmail } from "@/utils/helper";
+// import { sendTokenByEmail } from "@/utils/er";
 import { useRouter } from "next/navigation";
 import { useTransferContext } from "@/context/TransferContext";
 import TokenInput from "@/components/TokenInput";

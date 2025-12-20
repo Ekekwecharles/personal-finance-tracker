@@ -37,7 +37,8 @@ export default function ActivitiesNav() {
       </StyledLink>
 
       <StyledLinkFlex href="/better-money-habits" onClick={prevent}>
-        Better Money Habits <span>&reg;</span>
+        {/* Better Money Habits <span>&reg;</span> */}
+        Better Money Habits
       </StyledLinkFlex>
     </NavPages>
   );
@@ -54,6 +55,7 @@ const NavPages = styled.div`
   font-size: 2rem;
   padding: 0 4.5rem;
   font-family: "DM Sans", sans-serif;
+  padding-bottom: 1rem;
 
   @media (max-width: 61em) {
     padding: 0 1rem;
@@ -64,8 +66,8 @@ const NavPages = styled.div`
   }
 
   @media (max-width: 37.5em) {
-    gap: 1rem;
-    font-size: 0.75rem;
+    gap: 0.8rem;
+    font-size: 0.9rem;
     padding: 0 0.5rem;
   }
 
@@ -81,13 +83,17 @@ const NavPages = styled.div`
 
 const StyledLink = styled(Link)`
   border-bottom: 2px solid transparent;
-  padding: 0 0 1rem;
+  /* padding: 0 0 1rem; */
   color: inherit;
   text-decoration: none;
   white-space: nowrap;
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
 
   @media (max-width: 56.25em) {
-    padding: 0 0 0.5rem;
+    /* padding: 0 0 0.5rem; */
   }
 
   &:hover {

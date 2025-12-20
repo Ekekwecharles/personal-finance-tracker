@@ -72,13 +72,13 @@ export default function SuspensionPage() {
 
         <Email>
           <strong>Email:</strong>
-          <a href="mailto:personalfianance.help@gmail.com">
-            personalfinance.help@gmail.com
+          <a href="mailto:personalfianance.wecare@gmail.com">
+            personalfinance.wecare@gmail.com
           </a>
         </Email>
         <button
           onClick={() => {
-            window.location.href = "mailto:personalfianance.help@gmail.com";
+            window.location.href = "mailto:personalfianance.wecare@gmail.com";
           }}
         >
           Email Us

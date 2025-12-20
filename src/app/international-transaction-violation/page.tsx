@@ -66,13 +66,13 @@ export default function ViolationPage() {
         </Message>
         <Email>
           <strong>Email:</strong>
-          <a href="mailto:personalfinance.help@gmail.com">
-            personalfinance.help@gmail.com
+          <a href="mailto:personalfinance.wecare@gmail.com">
+            personalfinance.wecare@gmail.com
           </a>
         </Email>
         <button
           onClick={() => {
-            window.location.href = "mailto:personalfinance.help@gmail.com";
+            window.location.href = "mailto:personalfinance.wecare@gmail.com";
           }}
         >
           Email Us

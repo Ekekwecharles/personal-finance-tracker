@@ -23,8 +23,13 @@ export default function Nav() {
         <StyledLink href="#" onClick={prevent} $active={false}>
           Wealth Management
         </StyledLink>
-        <StyledLink href="#" onClick={prevent} $active={false}>
-          Business & Institutions
+        <StyledLink
+          href="#"
+          onClick={prevent}
+          $active={false}
+          className="business-link"
+        >
+          Business <span>& Institutions</span>
         </StyledLink>
         <StyledLink href="#" onClick={prevent} $active={false}>
           Security
@@ -84,7 +89,7 @@ const StyledNav = styled.nav`
     flex-direction: column;
     align-items: stretch;
     /* font-size: 1.1rem; */
-    padding: 0 2px;
+    padding: 1rem;
   }
 `;
 
@@ -142,6 +147,13 @@ const StyledLink = styled(Link)<{ $active: boolean }>`
 
   &:hover {
     border-bottom: 2px solid black;
+  }
+
+  &.business-link span {
+    /* 420px */
+    @media (max-width: 26.25em) {
+      display: none;
+    }
   }
 `;
 
